@@ -15,7 +15,7 @@ This will run the application.
 
 ## How it works
 
-This application uses 2 constants, a megabyte data, and an Array 2D called ' buffer '. When we run the app, we initializate the buffer, generating 3 Mb of rows ( process ), and every 3 seconds we delete a row randomly.
+This application uses 2 constants, a megabyte data, and an Array data structure called ' buffer '. When we run the app, we initializate the buffer, generating 3 Mb of rows ( process ), and every 3 seconds we delete a row randomly.
 
 We generate one row like an object, with an id, a device, and a size on Kb, we save it with a push( ) in the buffer, and we add the size to the total size variable.
 
